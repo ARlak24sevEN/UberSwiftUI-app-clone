@@ -45,7 +45,7 @@ struct LocationSearchView: View {
             .padding(.horizontal)
             .padding(.top,64)
             Divider()
-                .padding(.vertical)
+                .padding(.vertical )
             
             //list view
             ScrollView{
@@ -54,8 +54,10 @@ struct LocationSearchView: View {
                        LocationSearchResultCell()
                     }
                 }
+               
             }
         }
+        .background(.white )
         
     }
 }
